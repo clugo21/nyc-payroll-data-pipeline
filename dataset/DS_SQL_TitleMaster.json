@@ -1,0 +1,22 @@
+{
+	"name": "DS_SQL_TitleMaster",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "TitleCodeescription",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "NYC_Payroll_TITLE_MD"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

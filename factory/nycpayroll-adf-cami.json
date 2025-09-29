@@ -1,0 +1,9 @@
+{
+	"name": "nycpayroll-adf-cami",
+	"location": "westus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a488c616-a9f8-4a35-b31a-6549a166b8a3",
+		"tenantId": "f958e84a-92b8-439f-a62d-4f45996b6d07"
+	}
+}
